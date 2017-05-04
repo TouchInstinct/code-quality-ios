@@ -91,6 +91,6 @@ custom_rules:
   spaces_around_braces:
     included: ".*.swift"
     name: "Spaces around the braces"
-    regex: '(([A-Za-z0-9])[\{\}])|([\{\}]([A-Za-z0-9]))'
+    regex: '(([A-Za-z0-9])[\{\}])|([\{\}](\S)([A-Za-z0-9]))'
     message: "No spaces around the braces"
     severity: error
