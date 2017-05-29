@@ -105,3 +105,24 @@ custom_rules:
     - parameter
     - placeholder
     - typeidentifier
+
+  inout_keyword:
+    name: "Inout"
+    regex: 'inout'
+    message: "Don't use inout arguments"
+    severity: error
+    match_kinds: keyword
+
+  continue_keyword:
+    name: "Continue"
+    regex: 'continue'
+    message: "Don't use continue instruction"
+    severity: error
+    match_kinds: keyword
+
+  cyrillic_strings:
+    name: "Cyrillic strings"
+    regex: '[а-я,А-Я]+'
+    message: "Localize or translate"
+    severity: error
+    match_kinds: string
