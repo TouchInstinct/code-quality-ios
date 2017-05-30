@@ -130,5 +130,5 @@ custom_rules:
   simple_ban:
     name: "Simple type name"
     regex: '(class|struct)(.)+[sS]imple(.)+{'
-    message: "Don't use 'simple' in type name, use Default or Base instead"
+    message: "Don't use 'simple' in type name, use 'default' or 'base' instead"
     severity: warning
