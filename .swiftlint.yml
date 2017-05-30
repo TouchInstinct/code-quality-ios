@@ -126,3 +126,9 @@ custom_rules:
     message: "Localize or translate"
     severity: error
     match_kinds: string
+
+  simple_ban:
+    name: "Simple type name"
+    regex: '(class|struct)(.)+[sS]imple(.)+{'
+    message: "Don't use 'simple' in type name, use 'default' or 'base' instead"
+    severity: warning
