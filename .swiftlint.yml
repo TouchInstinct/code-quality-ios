@@ -123,10 +123,12 @@ custom_rules:
 
   cyrillic_strings:
     name: "Cyrillic strings"
-    regex: '[а-я,А-Я]+'
+    regex: '[а-яА-Я]+'
     message: "Localize or translate"
     severity: error
-    match_kinds: string
+    match_kinds: 
+    - identifier
+    - string
 
   simple_ban:
     name: "Simple type name"
