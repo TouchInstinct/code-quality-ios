@@ -1,8 +1,9 @@
 disabled_rules:
-  - variable_name
+  - identifier_name
 excluded:
   - Carthage
   - Pods
+
 line_length: 128
 type_body_length:
   - 500 # warning
@@ -129,6 +130,6 @@ custom_rules:
 
   simple_ban:
     name: "Simple type name"
-    regex: '(class|struct)(.)+[sS]imple(.)+{'
+    regex: '(class|struct)(.)+[sS]imple(.)+\{'
     message: "Don't use 'simple' in type name, use 'default' or 'base' instead"
     severity: warning
