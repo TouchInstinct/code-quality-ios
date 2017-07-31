@@ -3,6 +3,7 @@ disabled_rules:
 excluded:
   - Carthage
   - Pods
+  - Generated
 
 line_length: 128
 type_body_length:
