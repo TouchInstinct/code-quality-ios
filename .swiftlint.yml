@@ -1,5 +1,7 @@
 disabled_rules:
   - identifier_name
+opt_in_rules:
+  - private_outlet
 excluded:
   - Carthage
   - Pods
@@ -58,12 +60,6 @@ custom_rules:
     match_kinds:
       - comment
     message: "Template header comments should be removed."
-
-  private_outlet:
-    name: "Outlet"
-    regex: '@IBOutlet(\sweak)?(\s(file)?private(\(set\))?)?\svar'
-    message: "Please use some of `private` modifiers and make property it weak. Use pattern: `IBOutlet private weak var`."
-    severity: error
 
   delegate:
     name: "Delegate"
