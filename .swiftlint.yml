@@ -2,6 +2,11 @@ disabled_rules:
   - identifier_name
 opt_in_rules:
   - private_outlet
+  - closure_spacing
+  - closure_end_indentation
+  - empty_count
+  - explicit_init
+  - extension_access_modifier
 excluded:
   - Carthage
   - Pods
