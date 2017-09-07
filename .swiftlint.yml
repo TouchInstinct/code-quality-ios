@@ -35,6 +35,12 @@ type_body_length:
 file_length:
   warning: 500
   error: 1200
+identifier_name:
+  min_length:
+   error: 4
+function_parameter_count:
+  error: 5
+
 warning_threshold: 1
 
 custom_rules:
