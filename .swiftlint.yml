@@ -53,12 +53,16 @@ function_parameter_count:
 
 identifier_name:
   excluded:
+    - id
+    - key
+    - min
+    - max
+    - mid
     - ok
+    - URL
     - x
     - y
     - z
-    - id
-    - URL
 
 warning_threshold: 1
 
