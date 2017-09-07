@@ -1,5 +1,3 @@
-disabled_rules:
-  - identifier_name
 opt_in_rules:
   - closure_spacing
   - closure_end_indentation
@@ -15,7 +13,6 @@ opt_in_rules:
   - force_unwrapping
 
   - implicit_return
-  - identifier_name
 
   - let_var_whitespace
 
@@ -35,20 +32,33 @@ opt_in_rules:
   - unneeded_parentheses_in_closure_argument
 
   - vertical_parameter_alignment_on_call
+
 excluded:
   - Carthage
   - Pods
   - Generated
 
 line_length: 128
+
 type_body_length:
   - 500 # warning
   - 700 # error
+
 file_length:
   warning: 500
   error: 1200
+
 function_parameter_count:
   error: 5
+
+identifier_name:
+  excluded:
+    - ok
+    - x
+    - y
+    - z
+    - id
+    - URL
 
 warning_threshold: 1
 
