@@ -62,6 +62,7 @@ identifier_name:
     - x
     - y
     - z
+    - to
 
 warning_threshold: 1
 
