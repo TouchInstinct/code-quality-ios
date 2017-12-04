@@ -87,7 +87,7 @@ custom_rules:
 
   private_variable:
     name: "Private variable"
-    regex: '(?<!private\s)let\s\w*(:|(\s=))\sVariable'
+    regex: '(?<!private\s\w*)let\s\w*(:|(\s=))\sVariable'
     message: "Please use (file)private with variable."
     severity: error
 
